@@ -1,0 +1,28 @@
+# Configuration for the denoising comparative analysis
+
+denoisers:
+  - median
+  - gaussian
+  - fourier
+  - wavelet
+
+median:
+  size: 3
+
+gaussian:
+  sigma: 1.0
+
+fourier:
+  cutoff_fraction: 0.5
+  type: gaussian   # 'ideal', 'gaussian', or 'raised_cosine'
+  sigma_fraction: null
+  rolloff_fraction: 0.05
+
+wavelet:
+  wavelet: db1
+  level: null
+  method: bayes   # 'visu' or 'bayes'
+
+demo:
+  awgn_sigma: 0.05
+  sp_amount: 0.03

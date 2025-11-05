@@ -1,0 +1,9 @@
+numpy
+scipy
+scikit-image
+pywt
+matplotlib
+pandas
+tqdm
+PyYAML
+streamlit

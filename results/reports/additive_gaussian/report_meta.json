@@ -1,0 +1,88 @@
+{
+  "frames": [
+    {
+      "index": 1,
+      "name": "astronaut_awgn",
+      "algorithm": "median",
+      "image_path": "results/reports\\additive_gaussian\\frame_1_astronaut_awgn_median.png",
+      "comparison_path": "results/reports\\additive_gaussian\\comparison_1_astronaut_awgn_median.png",
+      "metrics": {
+        "mse": 0.001769159222021699,
+        "psnr": 27.5223308355978,
+        "ssim": 0.6820299632201994
+      },
+      "noisy_metrics": {
+        "mse": 0.005674205720424652,
+        "psnr": 22.46094925072631,
+        "ssim": 0.41845983538486503
+      },
+      "params": {
+        "size": 3
+      }
+    },
+    {
+      "index": 2,
+      "name": "astronaut_awgn",
+      "algorithm": "gaussian",
+      "image_path": "results/reports\\additive_gaussian\\frame_2_astronaut_awgn_gaussian.png",
+      "comparison_path": "results/reports\\additive_gaussian\\comparison_2_astronaut_awgn_gaussian.png",
+      "metrics": {
+        "mse": 0.0016980681102722883,
+        "psnr": 27.700448792710706,
+        "ssim": 0.726438846604086
+      },
+      "noisy_metrics": {
+        "mse": 0.005674205720424652,
+        "psnr": 22.46094925072631,
+        "ssim": 0.41845983538486503
+      },
+      "params": {
+        "sigma": 1.0
+      }
+    },
+    {
+      "index": 3,
+      "name": "astronaut_awgn",
+      "algorithm": "fourier",
+      "image_path": "results/reports\\additive_gaussian\\frame_3_astronaut_awgn_fourier.png",
+      "comparison_path": "results/reports\\additive_gaussian\\comparison_3_astronaut_awgn_fourier.png",
+      "metrics": {
+        "mse": 0.002701848978176713,
+        "psnr": 25.68338926410929,
+        "ssim": 0.7111868772493847
+      },
+      "noisy_metrics": {
+        "mse": 0.005674205720424652,
+        "psnr": 22.46094925072631,
+        "ssim": 0.41845983538486503
+      },
+      "params": {
+        "cutoff_fraction": 0.2,
+        "filter_type": "raised_cosine"
+      }
+    },
+    {
+      "index": 5,
+      "name": "astronaut_awgn",
+      "algorithm": "wavelet",
+      "image_path": "results/reports\\additive_gaussian\\frame_5_astronaut_awgn_wavelet.png",
+      "comparison_path": "results/reports\\additive_gaussian\\comparison_5_astronaut_awgn_wavelet.png",
+      "metrics": {
+        "mse": 0.0013717503752559423,
+        "psnr": 28.62724890924885,
+        "ssim": 0.7070245166414243
+      },
+      "noisy_metrics": {
+        "mse": 0.005674205720424652,
+        "psnr": 22.46094925072631,
+        "ssim": 0.41845983538486503
+      },
+      "params": {
+        "wavelet": "sym8",
+        "level": 4,
+        "method": "bayes"
+      }
+    }
+  ],
+  "generated": "2025-11-06T00:11:07.908986"
+}

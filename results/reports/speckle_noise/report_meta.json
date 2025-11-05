@@ -1,0 +1,67 @@
+{
+  "frames": [
+    {
+      "index": 1,
+      "name": "astronaut_speckle",
+      "algorithm": "median",
+      "image_path": "results/reports\\speckle_noise\\frame_1_astronaut_speckle_median.png",
+      "comparison_path": "results/reports\\speckle_noise\\comparison_1_astronaut_speckle_median.png",
+      "metrics": {
+        "mse": 0.0028370958752930164,
+        "psnr": 25.47125988792585,
+        "ssim": 0.7259207369253357
+      },
+      "noisy_metrics": {
+        "mse": 0.012097603641450405,
+        "psnr": 19.17300644852264,
+        "ssim": 0.5064734815521207
+      },
+      "params": {
+        "size": 5
+      }
+    },
+    {
+      "index": 2,
+      "name": "astronaut_speckle",
+      "algorithm": "gaussian",
+      "image_path": "results/reports\\speckle_noise\\frame_2_astronaut_speckle_gaussian.png",
+      "comparison_path": "results/reports\\speckle_noise\\comparison_2_astronaut_speckle_gaussian.png",
+      "metrics": {
+        "mse": 0.002444715704768896,
+        "psnr": 26.11771615019357,
+        "ssim": 0.7712754337853045
+      },
+      "noisy_metrics": {
+        "mse": 0.012097603641450405,
+        "psnr": 19.17300644852264,
+        "ssim": 0.5064734815521207
+      },
+      "params": {
+        "sigma": 1.25
+      }
+    },
+    {
+      "index": 3,
+      "name": "astronaut_speckle",
+      "algorithm": "wavelet",
+      "image_path": "results/reports\\speckle_noise\\frame_3_astronaut_speckle_wavelet.png",
+      "comparison_path": "results/reports\\speckle_noise\\comparison_3_astronaut_speckle_wavelet.png",
+      "metrics": {
+        "mse": 0.006484867073595524,
+        "psnr": 21.88098957690881,
+        "ssim": 0.5809444070598098
+      },
+      "noisy_metrics": {
+        "mse": 0.012097603641450405,
+        "psnr": 19.17300644852264,
+        "ssim": 0.5064734815521207
+      },
+      "params": {
+        "wavelet": "sym4",
+        "level": 3,
+        "method": "bayes"
+      }
+    }
+  ],
+  "generated": "2025-11-06T00:13:58.013706"
+}

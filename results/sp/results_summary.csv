@@ -1,0 +1,5 @@
+mse,psnr,ssim,image,algorithm,time_s,noise_type,param_size,param_sigma,param_cutoff_fraction,param_filter_type,param_sigma_fraction,param_rolloff_fraction,param_wavelet,param_level,param_method
+0.000655344681706388,31.83530220633836,0.9571989774322326,astronaut_sp,median,0.01919560000533238,sp,3.0,,,,,,,,
+0.0020568937302411086,26.867881456227742,0.7359199663097935,astronaut_sp,gaussian,0.0030929000058677047,sp,,1.0,,,,,,,
+0.0022078504208767843,26.560303528578288,0.7231407529445522,astronaut_sp,fourier,0.01869810000061989,sp,,,0.5,gaussian,,0.05,,,
+0.010144077127450184,19.937874574218576,0.5547036964824349,astronaut_sp,wavelet,0.013551800002460368,sp,,,,,,,db1,,bayes

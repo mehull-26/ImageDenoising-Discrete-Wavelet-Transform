@@ -1,0 +1,67 @@
+{
+  "frames": [
+    {
+      "index": 1,
+      "name": "astronaut_poisson",
+      "algorithm": "median",
+      "image_path": "results/reports\\poisson\\frame_1_astronaut_poisson_median.png",
+      "comparison_path": "results/reports\\poisson\\comparison_1_astronaut_poisson_median.png",
+      "metrics": {
+        "mse": 0.0010072982404381037,
+        "psnr": 29.968419654929516,
+        "ssim": 0.8553692507600348
+      },
+      "noisy_metrics": {
+        "mse": 0.001707097515463829,
+        "psnr": 27.677416501284938,
+        "ssim": 0.7090309645228834
+      },
+      "params": {
+        "size": 3
+      }
+    },
+    {
+      "index": 2,
+      "name": "astronaut_poisson",
+      "algorithm": "gaussian",
+      "image_path": "results/reports\\poisson\\frame_2_astronaut_poisson_gaussian.png",
+      "comparison_path": "results/reports\\poisson\\comparison_2_astronaut_poisson_gaussian.png",
+      "metrics": {
+        "mse": 0.0008956025703810155,
+        "psnr": 30.478846538277566,
+        "ssim": 0.8796348887972736
+      },
+      "noisy_metrics": {
+        "mse": 0.001707097515463829,
+        "psnr": 27.677416501284938,
+        "ssim": 0.7090309645228834
+      },
+      "params": {
+        "sigma": 0.75
+      }
+    },
+    {
+      "index": 3,
+      "name": "astronaut_poisson",
+      "algorithm": "wavelet",
+      "image_path": "results/reports\\poisson\\frame_3_astronaut_poisson_wavelet.png",
+      "comparison_path": "results/reports\\poisson\\comparison_3_astronaut_poisson_wavelet.png",
+      "metrics": {
+        "mse": 0.0007553492905572057,
+        "psnr": 31.218521956929614,
+        "ssim": 0.8222166468111299
+      },
+      "noisy_metrics": {
+        "mse": 0.001707097515463829,
+        "psnr": 27.677416501284938,
+        "ssim": 0.7090309645228834
+      },
+      "params": {
+        "wavelet": "sym8",
+        "level": 3,
+        "method": "bayes"
+      }
+    }
+  ],
+  "generated": "2025-11-06T00:14:36.626623"
+}

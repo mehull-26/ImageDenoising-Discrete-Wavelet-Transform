@@ -1,0 +1,47 @@
+{
+  "frames": [
+    {
+      "index": 1,
+      "name": "astronaut_sp",
+      "algorithm": "wavelet",
+      "image_path": "results/reports\\salt_and_pepper\\frame_1_astronaut_sp_wavelet.png",
+      "comparison_path": "results/reports\\salt_and_pepper\\comparison_1_astronaut_sp_wavelet.png",
+      "metrics": {
+        "mse": 0.009695332497358322,
+        "psnr": 20.13437306131037,
+        "ssim": 0.5583576732826717
+      },
+      "noisy_metrics": {
+        "mse": 0.010200135409832,
+        "psnr": 19.91394043556604,
+        "ssim": 0.554333935680918
+      },
+      "params": {
+        "wavelet": "sym8",
+        "level": 3,
+        "method": "bayes"
+      }
+    },
+    {
+      "index": 2,
+      "name": "astronaut_sp",
+      "algorithm": "median",
+      "image_path": "results/reports\\salt_and_pepper\\frame_2_astronaut_sp_median.png",
+      "comparison_path": "results/reports\\salt_and_pepper\\comparison_2_astronaut_sp_median.png",
+      "metrics": {
+        "mse": 0.000661409692838788,
+        "psnr": 31.79529455088273,
+        "ssim": 0.9562626692925442
+      },
+      "noisy_metrics": {
+        "mse": 0.010200135409832,
+        "psnr": 19.91394043556604,
+        "ssim": 0.554333935680918
+      },
+      "params": {
+        "size": 3
+      }
+    }
+  ],
+  "generated": "2025-11-06T00:13:04.036782"
+}
